@@ -1,0 +1,33 @@
+"Мутодор": {
+  "Name": "Мутодор",
+  "Adjective": "мутодорська",
+  "PreferredVictoryType": "Cultural",
+  "LeaderName": "Аґнал",
+  "LeaderTraits": [
+    {
+      "Name": "Мутодорський дух",
+      "Description": "Отримує +50 до бойової сили для всіх юнітів на території своєї цивілізації."
+    },
+    {
+      "Name": "Мутодорська земля",
+      "Description": "+10 до виробництва на кожній фермі."
+    }
+  ],
+  "UniqueUnits": [
+    {
+      "Name": "Мутодорець",
+      "Replaces": "Cavalry",
+      "UniqueTo": "Мутодорець",
+      "Description": "Більш потужна версія кавалерії, дешевша в обслуговуванні."
+    }
+  ],
+  "UniqueBuildings": [
+    {
+      "Name": "консульство",
+      "Replaces": "Opera House",
+      "UniqueTo": "Мутодор",
+      "Description": "Додає додаткову культуру та покращує щастя."
+    }
+  ],
+  "StartBias": "Grassland"
+}
